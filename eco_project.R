@@ -19,9 +19,10 @@ data %>%
   labs(x = "Ratio of Sexual:Asexual Reproduction",
        y = "PAR (μmol cm-2 s−1)",
        title = "Relationship Between PAR and Ratio of Sexual/Vegetative Reproduction",
+       subtitle = "n=50",
        caption = "Created in RStudio") +
 theme_classic2() +
   theme(plot.title.position = "plot",
         plot.caption = element_text(size = 7, face = "italic"),
         plot.caption.position = "plot",
-        plot.subtitle = element_text(size = 9))
+        plot.subtitle = element_text(size = 12))
